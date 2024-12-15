@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b44224aa-b410-47f1-aba8-95bd6dc6c453" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/BasicClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/src/main/java/example/BasicClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example/TestClassOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-basics-testng/src/test/java/example/TestClassOne.java" afterDir="false" />
-    </list>
+    <list default="true" id="b44224aa-b410-47f1-aba8-95bd6dc6c453" name="Changes" comment="1. Added dependency 'org.testng:testng:7.9.0' to build.gradle.&#10;2. Created a simple test with setup and teardown methods. Each method has to output its name to console.&#10;3. Created a test class named 'TestClassOne' with several test groups:&#10;    3.1 Created several groups of tests;&#10;    3.2 Group precondition and teardown methods, excluding one of them from test execution.&#10;4. Created test class 'TestClassTwo' with 2 parametrised test methods:&#10;    4.1 The first method has to accept parameters from testng.xml;&#10;    4.2 The second method has to accept parameters from a dataprovider.&#10;5. Created third test class named 'TestClassThree' where test methods are executed from the bottom to the top using priorities." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +67,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "TestNG./Users/ihor.taranenko/Git/java-training-4.0-2nd-version-/java-training-4.0-2nd-version-/java-basics-testng/testng.xml.executor": "Run",
     "TestNG.TestClassOne.executor": "Run",
     "TestNG.TestClassOne.testgroup1.executor": "Run",
@@ -209,6 +198,23 @@
       <option name="presentableId" value="Default" />
       <updated>1733926774973</updated>
     </task>
+    <task id="LOCAL-00001" summary="1. Added dependency 'org.testng:testng:7.9.0' to build.gradle.&#10;2. Created a simple test with setup and teardown methods. Each method has to output its name to console.&#10;3. Created a test class named 'TestClassOne' with several test groups:&#10;    3.1 Created several groups of tests;&#10;    3.2 Group precondition and teardown methods, excluding one of them from test execution.&#10;4. Created test class 'TestClassTwo' with 2 parametrised test methods:&#10;    4.1 The first method has to accept parameters from testng.xml;&#10;    4.2 The second method has to accept parameters from a dataprovider.&#10;5. Created third test class named 'TestClassThree' where test methods are executed from the bottom to the top using priorities.">
+      <option name="closed" value="true" />
+      <created>1734272249175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734272249175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. Added dependency 'org.testng:testng:7.9.0' to build.gradle.&#10;2. Created a simple test with setup and teardown methods. Each method has to output its name to console.&#10;3. Created a test class named 'TestClassOne' with several test groups:&#10;    3.1 Created several groups of tests;&#10;    3.2 Group precondition and teardown methods, excluding one of them from test execution.&#10;4. Created test class 'TestClassTwo' with 2 parametrised test methods:&#10;    4.1 The first method has to accept parameters from testng.xml;&#10;    4.2 The second method has to accept parameters from a dataprovider.&#10;5. Created third test class named 'TestClassThree' where test methods are executed from the bottom to the top using priorities.">
+      <option name="closed" value="true" />
+      <created>1734272268434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734272268434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,5 +227,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Added dependency 'org.testng:testng:7.9.0' to build.gradle.&#10;2. Created a simple test with setup and teardown methods. Each method has to output its name to console.&#10;3. Created a test class named 'TestClassOne' with several test groups:&#10;    3.1 Created several groups of tests;&#10;    3.2 Group precondition and teardown methods, excluding one of them from test execution.&#10;4. Created test class 'TestClassTwo' with 2 parametrised test methods:&#10;    4.1 The first method has to accept parameters from testng.xml;&#10;    4.2 The second method has to accept parameters from a dataprovider.&#10;5. Created third test class named 'TestClassThree' where test methods are executed from the bottom to the top using priorities." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Added dependency 'org.testng:testng:7.9.0' to build.gradle.&#10;2. Created a simple test with setup and teardown methods. Each method has to output its name to console.&#10;3. Created a test class named 'TestClassOne' with several test groups:&#10;    3.1 Created several groups of tests;&#10;    3.2 Group precondition and teardown methods, excluding one of them from test execution.&#10;4. Created test class 'TestClassTwo' with 2 parametrised test methods:&#10;    4.1 The first method has to accept parameters from testng.xml;&#10;    4.2 The second method has to accept parameters from a dataprovider.&#10;5. Created third test class named 'TestClassThree' where test methods are executed from the bottom to the top using priorities." />
   </component>
 </project>
